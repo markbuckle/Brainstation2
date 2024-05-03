@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles-marksedits.css">
+    <title>F + F Watch</title>
+
+    /* separate css file with full style code */
+    
+    <style>
+        /* add your styles below: */
+        hr {
+            margin: 2em auto; /* centred margin */
+            height: 2px; /* thickness of the line */
+            background-color: black; /* colour of the line */
+            border: none; /* no border */ 
+        }
+        .details {
+            padding: 0 5%;
+            background:  #F4EEE5;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+        .details__container {
+            padding: 0 5%;
+            display: flex;
+            justify-content: space-between;
+            background: white;
+        }
+        .details__column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .details__title {
+            font-family: "Chivo", Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            margin: 0;
+            padding-top: 5%;
+        }
+        .details__list-item {
+            font-family: "Overpass", Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        .details__list-item-title {
+            font-family: "Overpass", Arial, Helvetica, sans-serif;
+            font-size: 26px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="nav">
+        <ul class="nav__pages-list">
+            <li class="nav__pages-list-item">
+                <a class="nav__pages-link" href="/">HOME</a>
+            </li>
+            <!-- <li class="nav__pages-list-item">
+                <a class="nav__pages-link" href="/">CONTACT</a>
+            </li> -->
+        </ul>
+        <a class="nav__logo" href="#">
+            <img class="nav__logo-img" src="../F+F-logo-black.svg" alt="F+F Main Logo / Home Link">
+        </a>
+        <ul class="nav__sections-list">
+            <li class="nav__sections-list-item">
+                <a class="nav__sections-link" class="nav__sections-link--highlight" href="#features">FEATURES</a>
+            </li>
+            <li class="nav__sections-list-item">
+                <a class="nav__sections-link" class="nav__sections-link--highlight" href="#details">DETAILS</a>
+            </li>
+            <li class="nav__sections-list-item">
+                <a class="nav__sections-link" href="#pricing">PRICES</a>
+            </li>
+        </ul>
+    </div>
+    
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">Form Over Function?</h1>
+            <h2 class="header__subtitle">Why Choose?</h2>
+            <p class="header__copy">
+                At <span class="header__copy--bold">F+F</span> we believe that you shouldn’t have to pick between a stunning product and one that works.  <span class="header__copy--bold">No compromises.</span> Just an outstanding wrist watch, built to last.</p>
+            <p class="header__tagline">
+                Minimal, yet <span class="header__copy--bold">sharp</span></p>
+            <p class="header__tagline">
+                Modern, yet <span class="header__copy--bold">timeless</span></p>
+            </p>
+            </div>
+    </header>
+    
+    <main>
+        <div id="features" class="features">
+            <div class="features__container">
+                <div class="features__column">
+                    <h3 class="features__title">Features:</h3>
+                    <ul class="features__list">
+                        <li class="features__list-item">
+                            A Massive 1.5 Inch Touch Screen
+                        </li>
+                        <li class="features__list-item">
+                            A Range of Watch Face Backgrounds to Choose From
+                        </li>
+                        <li class="features__list-item">
+                            Water Resistant up to 7 Feet
+                        </li>
+                        <li class="features__list-item">
+                            Step Tracking, Heart Rate & Sleep Monitoring
+                        </li>
+                        <li class="features__list-item">
+                            Notifications from Popular Apps
+                        </li>
+                        <li class="features__list-item">
+                            10 Days of Battery Life
+                        </li>
+                    </ul>
+                </div>
+                <div class="features__column">
+                    <img class="features__image" src="..Mark Buckle Admission test.zip" alt="Side view of F+F Watch">
+                </div>
+            </div>
+        </div>
+        <div id="details" class="details">
+            <div class="details__container">
+                <div class="details__column">
+                    <h3 class="details__title">Details:</h3>
+                    <ul class="details">
+                        <p class="details__list-item-title">
+                            A Massive 1.5 Inch Touch Screen
+                        </p>
+                        <p class="details__list-item">
+                            Size is what matters when it comes to a smart watch screen. Read all your notifications with plenty of space.
+                        </p>
+                        <p class="details__list-item-title">
+                            Mix and Match Designs
+                        </p>
+                        <p class="details__list-item">
+                            Personalize your watch face to match your own unique style with many combinations of background images, clock styles and colors.
+                        </p>
+                        <p class="details__list-item-title">
+                            Water Resistant up to 7 Feet
+                        </p>
+                        <p class="details__list-item">
+                            IP68 Weatherproof rating. Fit to withstand dust, dirt and sand and resistant to submersion up to a maximum depth of 7 feet underwater for up to 30 minutes.
+                        </p>
+                        <p class="details__list-item-title">
+                            Tracking your Steps, Heart Rate & Sleep.
+                        </p>
+                        <p class="details__list-item">
+                            Check out your step progress during the day with the in app-tracker. Keep an eye on your heart rate easily and conveniently. And when you’re ready for your head to hit the pillow, track that too. 
+                        </p>
+                        <p class="details__list-item-title">
+                            Notifications from Popular Apps
+                        </p>
+                        <p class="details__list-item">
+                            Get all your notifications from all your accounts conveniently on your wrist
+                        </p>
+                        <p class="details__list-item-title">
+                            Up to 10 Days of Battery Life
+                        </p>
+                        <p class="details__list-item">
+                            With a battery capacity up to 300mAh, you’ll have no problem getting through the week with plenty of charge to spare. 
+                        </p>
+                    </ul>
+        </div>
+            </div>
+        </div>
+        <div id="pricing" class="pricing">
+            <div class="pricing__container">
+                <h3 class="pricing__title">Pricing:</h3>
+                <div class="pricing__cards">
+                    <div class="pricing__card">
+                        <div class="pricing__card-top">
+                            <h4 class="pricing__card-title">Package 1:</h4>
+                            <p class="pricing__card-price">$89</p>
+                        </div>
+                        <div><hr></div>
+                        <div class="pricing__card-bottom">
+                            <p class="pricing__card-bottom">Package 1 includes: </p>
+                                <ol>
+                                    <li class="pricing__card-bottom">Watch face</li>
+                                    <li class="pricing__card-bottom">Interchangeable band (white)</li>
+                                    <li class="pricing__card-bottom">Charging cable</li>
+                                </ol>
+                        </div>
+                    </div>
+                    <div class="pricing__card">
+                        <div class="pricing__card-top">
+                            <h4 class="pricing__card-title">Package 2:</h4>
+                            <p class="pricing__card-price">$99</p>
+                        </div>
+                        <div><hr></div>
+                        <div class="pricing__card-bottom">
+                            <ol>
+                                <li class="pricing__card-bottom">Everything in Package 1</li>
+                                <li class="pricing__card-bottom">Interchangeable band (black)</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="pricing__card">
+                        <div class="pricing__card-top">
+                            <h4 class="pricing__card-title">Package 3:</h4>
+                            <p class="pricing__card-price">$109</p>
+                        </div>
+                        <div><hr></div>
+                        <div class="pricing__card-bottom">
+                            <ol>
+                                <li class="pricing__card-bottom">Everything in Package 2</li>
+                                <li class="pricing__card-bottom">Extra charging cable</li>
+                                <li class="pricing__card-bottom">Warranty for 5 years</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav class="nav-footer">
+            <ul class="nav-footer__list">
+                <li class="nav-footer__list-item">
+                    <a class="nav-footer__link" href="mailto:info@ff.com">INFO@FF.COM</a>
+                </li>
+                <li class="nav-footer__list-item">
+                    <a class="nav-footer__link" href="./index.html">
+                        <img class="nav-footer__logo" src="../F+F-logo-black.svg" alt="F+F Logo / Link to Home">
+                    </a>
+                </li>
+                <li class="nav-footer__list-item">
+                    <a class="nav-footer__link" href="tel:8671024337">867 - 102 - 4337</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
